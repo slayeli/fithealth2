@@ -4,7 +4,7 @@ pipeline{
         mvn 'maven3'
         jdk 'OracleJdk8'
     }
-    enironment{
+    environment{
         NEXUS_USER='admin'
         NEXUS_PASSWORD='nexus'
         SNAP_REPO='slayeli_snapshot_repo'
